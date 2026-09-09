@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Outer Ring with Gradient -->
+  <defs>
+    <linearGradient id="crestGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="crestBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0B132B" />
+    </linearGradient>
+    <linearGradient id="crestOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00" />
+      <stop offset="100%" stop-color="#D90429" />
+    </linearGradient>
+  </defs>
+
+  <!-- Shield Base -->
+  <rect width="120" height="120" rx="28" fill="url(#crestBlue)"/>
+  <rect x="4" y="4" width="112" height="112" rx="24" stroke="url(#crestGold)" stroke-width="2.5" fill="none"/>
+
+  <!-- Heraldic / Tech Atom Orbit -->
+  <ellipse cx="60" cy="58" rx="42" ry="18" stroke="url(#crestGold)" stroke-width="1.5" stroke-dasharray="4 3" transform="rotate(-25 60 58)" opacity="0.6"/>
+  <ellipse cx="60" cy="58" rx="42" ry="18" stroke="url(#crestGold)" stroke-width="1.5" stroke-dasharray="4 3" transform="rotate(25 60 58)" opacity="0.6"/>
+
+  <!-- Stylized Monogram "G" + Torch of Knowledge -->
+  <!-- Inner Shield -->
+  <path d="M60 20 L86 32 V62 C86 78 74 94 60 100 C46 94 34 78 34 62 V32 Z" fill="#0E172A" stroke="url(#crestGold)" stroke-width="2"/>
+  
+  <!-- Stylized G -->
+  <path d="M72 44 C69 40 64 38 59 38 C49 38 42 46 42 58 C42 70 49 78 60 78 C68 78 74 72 75 64 H60 V56 H82 V74 C77 82 69 86 59 86 C44 86 33 74 33 58 C33 42 44 30 60 30 C68 30 75 34 79 40 Z" fill="url(#crestGold)"/>
+
+  <!-- Center Torch Flame / Tech Spark -->
+  <circle cx="60" cy="58" r="4" fill="url(#crestOrange)"/>
+  
+  <!-- 4 Stars representing Excellence -->
+  <polygon points="60,24 61.5,28 65,28 62,30 63.5,34 60,31.5 56.5,34 58,30 55,28 58.5,28" fill="#FCD34D"/>
+</svg>
